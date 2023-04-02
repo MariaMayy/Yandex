@@ -7,7 +7,6 @@ using namespace std;
 stack<int> result;
 vector<int> colors;
 
-// false - обошли все
 bool dfs(const vector<vector<int>>& graph, int now) {
     colors[now] = 1; // the current vertex has been visited, but all the vertices 
     // reachable from it have not yet been visited
